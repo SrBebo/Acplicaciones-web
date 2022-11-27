@@ -1,0 +1,230 @@
+#general{
+    width: 1300px;
+    margin: 0px auto;/*centrar*/
+    margin-top: 30px;
+    border: 3px solid black;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    
+}
+
+/*----------------------------------------------------------------*/
+
+
+#header{ 
+    width: 100%;/*ocupa el 100% de espacio dentro de la seccion creada*/
+    height: 90px;
+    background: rgb(5, 76, 219);
+    color: white; 
+    text-align: center;
+    line-height: 80px;
+}
+
+img.imagen1 {
+    float: left;
+    margin-right: 20px;
+}
+
+#introduccion{
+    color: black;
+    text-align: justify;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#atraccion1{
+    text-align: justify;
+}
+
+
+/*----------------------------------------------------------------*/
+
+
+#h1{
+    width: 100%;/*ocupa el 100% de espacio dentro de la seccion creada solo de forma horizontal*/
+    height: 50px;/*lo mismo que width, pero vertical*/
+    background: rgb(5, 76, 219);
+    color: white; 
+    text-align: left;
+    line-height: 50px;
+}
+
+img.imagen2 {
+    float: right;
+    margin-right: 5px;
+    margin-left: 20px;
+}
+
+#atra1{
+    clear: both;
+}
+
+#p1a1{
+    
+    text-align: justify;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+/*----------------------------------------------------------------*/
+
+
+#h2{
+    width: 100%;/*ocupa el 100% de espacio dentro de la seccion creada solo de forma horizontal*/
+    height: 50px;/*lo mismo que width, pero vertical*/
+    background: rgb(5, 76, 219);
+    color: white; 
+    text-align: left;
+    line-height: 50px;
+}
+
+img.imagen3 {
+    float: right;
+    margin-right: 5px;
+    margin-left: 0px;
+}
+img.imagen4 {
+    float: right;
+    margin-right: 5px;
+    margin-left: 20px;
+}
+
+#p1a2{  
+    text-align: justify;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+/*----------------------------------------------------------------*/
+
+
+#h3{
+    width: 100%;/*ocupa el 100% de espacio dentro de la seccion creada solo de forma horizontal*/
+    height: 50px;/*lo mismo que width, pero vertical*/
+    background: rgb(5, 76, 219);
+    color: white; 
+    text-align: left;
+    line-height: 50px;
+}
+
+img.imagen5 {
+    float: left;
+    margin-right: 20px;
+    margin-left: 5px;
+}
+
+#p1a2{  
+    text-align: justify;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+/*----------------------------------------------------------------*/
+
+
+#h4{
+    width: 100%;/*ocupa el 100% de espacio dentro de la seccion creada solo de forma horizontal*/
+    height: 50px;/*lo mismo que width, pero vertical*/
+    background: rgb(5, 76, 219);
+    color: white; 
+    text-align: left;
+    line-height: 50px;
+}
+
+img.imagen6 {
+    float: right;
+    margin-right: 5px;
+    margin-left: 20px;
+}
+
+#p1a4{  
+    text-align: justify;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+/*----------------------------------------------------------------*/
+
+
+#h5{
+    width: 100%;/*ocupa el 100% de espacio dentro de la seccion creada solo de forma horizontal*/
+    height: 50px;/*lo mismo que width, pero vertical*/
+    background: rgb(5, 76, 219);
+    color: white; 
+    text-align: left;
+    line-height: 50px;
+}
+
+ul li{
+    display: block; /*quita las viñetas*/
+    
+}
+
+#p1a5{  
+    text-align: justify;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+
+#h6{
+    width: 100%;/*ocupa el 100% de espacio dentro de la seccion creada solo de forma horizontal*/
+    height: 50px;/*lo mismo que width, pero vertical*/
+    background: rgb(5, 76, 219);
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
+
+
+
+
+#h7{
+    width: 100%;/*ocupa el 100% de espacio dentro de la seccion creada solo de forma horizontal*/
+    height: 50px;/*lo mismo que width, pero vertical*/
+    background: rgb(5, 76, 219);
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
+
+#h8{
+    width: 100%;/*ocupa el 100% de espacio dentro de la seccion creada solo de forma horizontal*/
+    height: 50px;/*lo mismo que width, pero vertical*/
+    background: rgb(5, 76, 219);
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
+
+
+#h9{
+    width: 100%;/*ocupa el 100% de espacio dentro de la seccion creada solo de forma horizontal*/
+    height: 50px;/*lo mismo que width, pero vertical*/
+    background: rgb(5, 76, 219);
+    color: white;
+    text-align: left;
+    line-height: 50px;
+}
+
+#p1a6{  
+    text-align: justify;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
