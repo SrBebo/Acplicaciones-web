@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+#general{
+    width: 860px;
+    margin: 0px auto;/*centrar*/
+    margin-top: 30px;
+    border: 1px solid gray;
+}
+
+#header{
+    width: 100%;
+    height: 90px;
+    background: rgb(15, 115, 253);
+    color: white;
+    text-align: center;
+    line-height: 70px;/*centrar verticalmente*/
+
+}
+.clearfix{/*para arreglar lo que se pierde de formato*/
+    float: none;
+    clear: both;
+}
+
+#menu{
+    background-color: #efa;
+}
+
+#menu ul li{
+    display: block; /*quita las viñetas*/
+    float: left;
+    border-right: 1px soli black;
+}
+
+#menu ul li a{
+    display: block;
+    padding: 15px;
+    color: orange;
+}
+
+#menu ul li a:hover{
+    background: rgb(16, 80, 150);
+    cursor: pointer;/*paso el mouse encima y se marca*/
+}
+
+#menu ul li:hover a{ 
+    color: white;
+
+}
