@@ -1,0 +1,53 @@
+/*Fuentes ersonalizadas*/
+@font-face {
+    font-family: "TrebuchetMS";
+    src: url('fonts/TrebuchetMS.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "BebasNeue";
+    src: url('fonts/BebasNeue.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "WebSymbolsRegular";
+    src: url('fonts/websymbols-regular-webfont.eot');
+    src: url('fonts/websymbols-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/websymbols-regular-webfont.woff') format('woff'),
+         url('fonts/websymbols-regular-webfont.ttf') format('truetype'),
+         url('fonts/websymbols-regular-webfont.svg#WebSymbolsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*Estilos generales*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: url("img/pattern.png");
+}
+
+.wrap{
+    width: 1250px;
+    margin: 0px auto;
+}
+
+.icon{
+    font-family: "WebSymbolsRegular";
+}
+
+.clear{
+    float: none;
+    clear: both;
+}
+
+.balon{
+    width: 35px;
+    height: 34px;
+}
