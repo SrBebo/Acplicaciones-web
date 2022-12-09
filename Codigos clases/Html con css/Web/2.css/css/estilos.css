@@ -1,0 +1,116 @@
+/*
+CSS CascadeStyleSheet
+*/
+
+h1{
+    color: red;
+    font-family: Impact;
+}
+
+/*Selectores*/
+/*selector universal: aplica cambios a todo el contenido*/
+*{
+    margin: 0;/*sin margen*/
+    padding: 0;/*relleno*/
+}
+/*selector de tipo o etiqueta*/
+nav{
+    color: blue;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*selector descendente o cascada: aplica propiedades a elementos dentro de otors*/
+article{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: green;
+
+}
+article span{
+    color: red;
+
+}
+
+article span a{
+    color: black;
+    text-decoration: none;
+    background-color: yellow;
+
+}
+aside{
+    background-color: beige;
+    color: orange;
+}
+
+/*selector de clase*/
+
+.destacado{
+    color: coral;
+    font-weight: bold;
+    background: pink;
+}
+
+.error{
+    color: red !important; /*el important hace que no se haga cambios*/
+    font-weight: bold;
+    background-color: white;
+
+}
+.alerta{
+    color: black;
+    font-weight: bold;
+    background-color: yellow;
+    border: 5px solid black;
+}
+.otra{
+    border: 5px dashed red;
+    color:blue;
+}
+
+/*selector por id*/
+
+#destacado{
+    background: hotpink;
+}
+div#destacado{
+    background: yellow;
+
+}
+footer{
+    background-color:black ;
+    color: white;
+
+}
+
+/*combinacion de selectores
+
+unidades de medida
+in pulgadas
+cm centimetros
+mm milimetros
+pt puntos
+pc picas
+
+
+unidades relativas
+em relaiva al tamaño de la letra
+ex respecto a la altura de la letra x
+px pixel respecto a la resolucion de la pantalla del dispositivo
+
+
+porcentajes
+10px=10%
+
+
+*/
+
+
+/*Modelos de cajas*/
+div{
+    width: 300px;
+    padding-left: 50px;
+    padding-right: 5px;
+    margin-right: 30px;
+    margin-left: 10px;
+    border: 10px dotted black;
+}
