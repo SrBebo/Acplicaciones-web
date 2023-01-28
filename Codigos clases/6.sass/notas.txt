@@ -1,0 +1,19 @@
+Preprocesadores CSS
+permiten agregar funcionalidad a CSS
+SASS: https://sass-lang.com
+LESS https://lesscss.org
+
+1. Instalacion
+1.1 Instalar NodeJS https://nodejs.org/en/
+
+1.2 comprobar la instalacion con: node -v
+1.3 Instalacion de sass
+npm install -g sass
+1.4 comprobar la instalacion con: sass --version
+
+2. crear archivos sass
+estilos.scss
+2.1 compilacion de archivos
+sass estilos.scss styles.css
+2.2 establecer la verificacion automatica y para no estar ejecutando el comando a cada rato
+sass --watch estilos.scss styles.css

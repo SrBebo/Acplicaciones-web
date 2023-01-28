@@ -1,0 +1,125 @@
+body {
+  background: rgb(99, 95, 95);
+}
+
+h1 {
+  color: white;
+  font-family: sans-serif;
+}
+
+p {
+  color: rgb(80, 25, 20);
+}
+
+.caja {
+  border: 2px solid black;
+  width: 300px;
+  margin: 0px auto;
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+}
+.caja h1 {
+  color: green;
+}
+.caja p {
+  color: orange;
+}
+.caja .info {
+  font-size: 20px;
+}
+.caja .info .autor {
+  font-size: 15px;
+  color: rgb(82, 32, 218);
+}
+
+/*
+@mixin crearBorde(){
+    border: 5px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+};
+.caja{
+    @include crearBorde();
+}*/
+.caja {
+  border: 5px solid red;
+  border-radius: 15px;
+  box-shadow: 0px 0px 5px black;
+}
+
+.listado {
+  border: 5px solid black;
+  border-radius: 15px;
+  box-shadow: 0px 0px 5px white;
+}
+
+.alert-success, .alert-danger, .alert {
+  border: 1px solid black;
+  background: rgb(71, 71, 71);
+  color: red;
+  width: 70%;
+  margin: 20px auto;
+}
+
+.alert-danger {
+  border: 8px solid red;
+}
+
+.alert-success {
+  border: 10px solid green;
+}
+
+h1 {
+  font-size: 63px;
+}
+
+h1 {
+  color: rgb(12, 12, 12);
+}
+
+.listado ul li:nth-child(1) {
+  font-size: 20px;
+}
+
+.listado ul li:nth-child(2) {
+  font-size: 40px;
+}
+
+.listado ul li:nth-child(3) {
+  font-size: 60px;
+}
+
+.listado ul li:nth-child(4) {
+  font-size: 80px;
+}
+
+.listado ul li:nth-child(5) {
+  font-size: 100px;
+}
+
+.listado ul li:nth-child(6) {
+  font-size: 120px;
+}
+
+.listado ul li:nth-child(7) {
+  font-size: 140px;
+}
+
+.listado ul li:nth-child(8) {
+  font-size: 160px;
+}
+
+.listado ul li:nth-child(9) {
+  font-size: 180px;
+}
+
+.listado ul li:nth-child(10) {
+  font-size: 200px;
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=styles.css.map */
