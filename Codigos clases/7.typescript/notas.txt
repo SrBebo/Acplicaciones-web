@@ -1,0 +1,15 @@
+Typescript es 100% JS
+Transpilar y convertir TS a JS
+POO
+TS traduce a JS puro
+usando por angular y node
+1. Instalar NodeJS
+1.1 verificar la instalacion
+node --version
+2. Instalar TS 
+npm install -g typescript 
+2.1 Verificar la instalacion 
+tsc -v
+3. crear un archvio ts
+4. Transpilar el archivo
+tsc nombreArchivo.ts
