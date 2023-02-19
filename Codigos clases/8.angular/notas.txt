@@ -1,0 +1,14 @@
+1. Instalar NodeJS
+2. Instalar angular
+npm install -g @angular/cli
+para desinstalar es
+npm uninstall -g @angular/cli
+verificar 
+ng version
+2. Crear un proyecto 
+ng new nombreProyecto
+ejemplo: ng new aprendiendo-angular
+
+una vez acaba la creacion nos pasamos a la carpeta cron 
+cd aprendiendo-angular
+npm start
